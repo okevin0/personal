@@ -1,6 +1,6 @@
 html, body {
     background-color: rgb(252, 244, 244);
-    font-family: SF Pro Display,sans-serif;
+    font-family: sans-serif;
     color:white !important;
 }
 
@@ -146,7 +146,6 @@ html, body {
     box-shadow: none;
     border-radius: 0;
     position: relative;
-    -webkit-animation: 2s linear 0s normal none infinite running progress-bar-stripes,animate-positive 1s;
     animation: 2s linear 0s normal none infinite running progress-bar-stripes,animate-positive 1s;
 }
 .progress-bar .progress-value{
@@ -183,13 +182,6 @@ html, body {
 .green-0 { background-color: #30eca4;}
 
 .progress .progress-value:after{ border-left: 13px solid #ffffff; }
-
-@-webkit-keyframes animate-positive{
-    0%{ width: 0; }
-}
-@keyframes animate-positive{
-    0%{ width: 0; }
-}
 
 .card-title, .card-text{
     color: black;

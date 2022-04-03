@@ -56,7 +56,6 @@
     width: 100%;
     height: 100%;
     perspective: 600px;
-    -webkit-perspective: 600px;
     z-index: -1;
 }
 .star-field .layer {
